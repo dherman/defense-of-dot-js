@@ -60,7 +60,7 @@ Trainers, teachers, and authors of books or training material can teach a workfl
 
 Now, because the world's corpus of information about Node.js (StackOverflow, blog posts, etc.) will describe CommonJS modules for a long time to come, books and courses on Node.js will provide students with cheat sheets for how to translate the old lingo they may come across on the web into the new system.
 
-But learners don’t have to internalize these cheat sheets for understanding how to use Node.js, and over the years they become less important as more and more information is presented in terms of the new system. (This is similar to the transition, in the Cocoa ecosystem, to Swift. People can learn and use Swift as their primary development system, but for the time being they will need to understand how to translate Objective C documentation and advice into Swift.)
+But learners don’t have to internalize these cheat sheets for understanding how to use Node.js, and over the years they become less important as more and more information is presented in terms of the new system. (This is similar to the transition, in the Cocoa ecosystem, to Swift. People can learn and use Swift as their primary development system, but for the time being they will need to understand how to translate Objective C documentation and advance into Swift.)
 
 Of course, many existing Node.js users choose to use the new system too, and over time appreciate not needing to retain both the old system and new system in their mental model at once. Over time, many such users will even begin to forget details of the old system.
 
