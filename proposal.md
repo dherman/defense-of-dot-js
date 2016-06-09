@@ -181,7 +181,7 @@ In addition, `import mkdirp from 'mkdirp'` will work, because Node.js will ident
 
 > We should also try to allow all existing usage patterns to remain agnostic to the kind of module they are importing and minimize disruption to existing patterns.
 
-Because this proposal retains the `.js` suffix, applications that require a module that ends in `.js`, a standard practice, will continue to work even if the package in question updates to use standard modules and does not publish a poly-package.
+Because this proposal retains the `.js` suffix, applications that require a module that ends in `.js`, a standard practice, will continue to work in versions of Node which support standard modules, even if the package in question updates to use standard modules and does not publish a poly-package.
 
 ## A Future Without Vestiges
 
