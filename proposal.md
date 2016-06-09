@@ -169,7 +169,7 @@ Continuing with the previous example, if `lodash` releases a new version whose `
 
 Existing calls to `require('lodash')` will continue to work, because Node.js will find the `lodash` package, identify support for standard JavaScript modules in its `package.json` and evaluate its `module.js` file as a standard JavaScript module.
 
-If `lodash` publishes a poly-package that also contains `"module": "main.js"`, new versions of Node.js will prefer the standard module, while older versions of Node.js (such as the 4.x LTS series), will see the `"main": "index.js"` entry in the `package.json` and use that.
+If `lodash` publishes a poly-package that also contains `"module": "module.js"`, new versions of Node.js will prefer the standard module, while older versions of Node.js (such as the 4.x LTS series), will see the `"main": "index.js"` entry in the `package.json` and use that.
 
 Standard `import`s work exactly the same way.
 
